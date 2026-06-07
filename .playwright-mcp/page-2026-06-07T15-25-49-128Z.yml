@@ -1,0 +1,151 @@
+- generic [ref=e1]:
+  - table [ref=e4]:
+    - rowgroup [ref=e5]:
+      - row "Sign In | Contact Us | Feedback | Search Go" [ref=e6]:
+        - cell [ref=e7]:
+          - link [ref=e8] [cursor=pointer]:
+            - /url: /index.jsp
+            - img [ref=e9]
+        - cell "Sign In | Contact Us | Feedback | Search Go" [ref=e10]:
+          - link "Sign In" [ref=e11] [cursor=pointer]:
+            - /url: /login.jsp
+          - text: "|"
+          - link "Contact Us" [ref=e12] [cursor=pointer]:
+            - /url: /index.jsp?content=inside_contact.htm
+          - text: "|"
+          - link "Feedback" [ref=e13] [cursor=pointer]:
+            - /url: /feedback.jsp
+          - text: "| Search"
+          - textbox [ref=e14]
+          - button "Go" [ref=e15]
+      - row [ref=e16]:
+        - cell [ref=e17]
+  - table [ref=e18]:
+    - rowgroup [ref=e19]:
+      - row "Secure Login ONLINE BANKING LOGIN PERSONAL SMALL BUSINESS INSIDE ALTORO MUTUAL" [ref=e20]:
+        - cell "Secure Login ONLINE BANKING LOGIN" [ref=e21]:
+          - generic [ref=e22]:
+            - img "Secure Login" [ref=e23]
+            - link "ONLINE BANKING LOGIN" [ref=e24] [cursor=pointer]:
+              - /url: /login.jsp
+        - cell "PERSONAL" [ref=e25]:
+          - link "PERSONAL" [ref=e27] [cursor=pointer]:
+            - /url: /index.jsp?content=personal.htm
+        - cell "SMALL BUSINESS" [ref=e28]:
+          - link "SMALL BUSINESS" [ref=e30] [cursor=pointer]:
+            - /url: /index.jsp?content=business.htm
+        - cell "INSIDE ALTORO MUTUAL" [ref=e31]:
+          - link "INSIDE ALTORO MUTUAL" [ref=e33] [cursor=pointer]:
+            - /url: /index.jsp?content=inside.htm
+      - 'row "PERSONAL Deposit Product Checking Loan Products Cards Investments & Insurance Other Services SMALL BUSINESS Deposit Products Lending Services Cards Insurance Retirement Other Services INSIDE ALTORO MUTUAL About Us Contact Us Locations Investor Relations Press Room Careers Subscribe Online Banking Login Username: Password: Login" [ref=e34]':
+        - cell "PERSONAL Deposit Product Checking Loan Products Cards Investments & Insurance Other Services SMALL BUSINESS Deposit Products Lending Services Cards Insurance Retirement Other Services INSIDE ALTORO MUTUAL About Us Contact Us Locations Investor Relations Press Room Careers Subscribe" [ref=e35]:
+          - link "PERSONAL" [ref=e36] [cursor=pointer]:
+            - /url: index.jsp?content=personal.htm
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Deposit Product" [ref=e39] [cursor=pointer]:
+                - /url: index.jsp?content=personal_deposit.htm
+            - listitem [ref=e40]:
+              - link "Checking" [ref=e41] [cursor=pointer]:
+                - /url: index.jsp?content=personal_checking.htm
+            - listitem [ref=e42]:
+              - link "Loan Products" [ref=e43] [cursor=pointer]:
+                - /url: index.jsp?content=personal_loans.htm
+            - listitem [ref=e44]:
+              - link "Cards" [ref=e45] [cursor=pointer]:
+                - /url: index.jsp?content=personal_cards.htm
+            - listitem [ref=e46]:
+              - link "Investments & Insurance" [ref=e47] [cursor=pointer]:
+                - /url: index.jsp?content=personal_investments.htm
+            - listitem [ref=e48]:
+              - link "Other Services" [ref=e49] [cursor=pointer]:
+                - /url: index.jsp?content=personal_other.htm
+          - link "SMALL BUSINESS" [ref=e50] [cursor=pointer]:
+            - /url: index.jsp?content=business.htm
+          - list [ref=e51]:
+            - listitem [ref=e52]:
+              - link "Deposit Products" [ref=e53] [cursor=pointer]:
+                - /url: index.jsp?content=business_deposit.htm
+            - listitem [ref=e54]:
+              - link "Lending Services" [ref=e55] [cursor=pointer]:
+                - /url: index.jsp?content=business_lending.htm
+            - listitem [ref=e56]:
+              - link "Cards" [ref=e57] [cursor=pointer]:
+                - /url: index.jsp?content=business_cards.htm
+            - listitem [ref=e58]:
+              - link "Insurance" [ref=e59] [cursor=pointer]:
+                - /url: index.jsp?content=business_insurance.htm
+            - listitem [ref=e60]:
+              - link "Retirement" [ref=e61] [cursor=pointer]:
+                - /url: index.jsp?content=business_retirement.htm
+            - listitem [ref=e62]:
+              - link "Other Services" [ref=e63] [cursor=pointer]:
+                - /url: index.jsp?content=business_other.htm
+          - link "INSIDE ALTORO MUTUAL" [ref=e64] [cursor=pointer]:
+            - /url: index.jsp?content=inside.htm
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - link "About Us" [ref=e67] [cursor=pointer]:
+                - /url: index.jsp?content=inside_about.htm
+            - listitem [ref=e68]:
+              - link "Contact Us" [ref=e69] [cursor=pointer]:
+                - /url: index.jsp?content=inside_contact.htm
+            - listitem [ref=e70]:
+              - link "Locations" [ref=e71] [cursor=pointer]:
+                - /url: cgi.exe
+            - listitem [ref=e72]:
+              - link "Investor Relations" [ref=e73] [cursor=pointer]:
+                - /url: index.jsp?content=inside_investor.htm
+            - listitem [ref=e74]:
+              - link "Press Room" [ref=e75] [cursor=pointer]:
+                - /url: index.jsp?content=inside_press.htm
+            - listitem [ref=e76]:
+              - link "Careers" [ref=e77] [cursor=pointer]:
+                - /url: index.jsp?content=inside_careers.htm
+            - listitem [ref=e78]:
+              - link "Subscribe" [ref=e79] [cursor=pointer]:
+                - /url: subscribe.jsp
+        - 'cell "Online Banking Login Username: Password: Login" [ref=e80]':
+          - generic [ref=e81]:
+            - heading "Online Banking Login" [level=1] [ref=e82]
+            - paragraph [ref=e83]
+            - table [ref=e85]:
+              - rowgroup [ref=e86]:
+                - row "Username:" [ref=e87]:
+                  - cell "Username:" [ref=e88]
+                  - cell [ref=e89]:
+                    - textbox [active] [ref=e90]
+                  - cell [ref=e91]
+                - row "Password:" [ref=e92]:
+                  - cell "Password:" [ref=e93]
+                  - cell [ref=e94]:
+                    - textbox [ref=e95]
+                - row "Login" [ref=e96]:
+                  - cell [ref=e97]
+                  - cell "Login" [ref=e98]:
+                    - button "Login" [ref=e99]
+  - generic [ref=e100]:
+    - link "Privacy Policy" [ref=e101] [cursor=pointer]:
+      - /url: /index.jsp?content=privacy.htm
+    - text: "|"
+    - link "Security Statement" [ref=e102] [cursor=pointer]:
+      - /url: /index.jsp?content=security.htm
+    - text: "|"
+    - link "Server Status Check" [ref=e103] [cursor=pointer]:
+      - /url: /status_check.jsp
+    - text: "|"
+    - link "REST API" [ref=e104] [cursor=pointer]:
+      - /url: /swagger/index.html
+    - text: "| © 2026 Altoro Mutual, Inc."
+    - generic [ref=e105]:
+      - text: This web application is open source!
+      - generic [ref=e106]:
+        - link "Get your copy from GitHub" [ref=e107] [cursor=pointer]:
+          - /url: https://github.com/AppSecDev/AltoroJ/
+        - text: and take advantage of advanced features
+    - generic [ref=e108]:
+      - text: The AltoroJ website is published by HCL Technologies, Ltd. for the sole purpose of demonstrating the effectiveness of HCL products in detecting web application vulnerabilities and website defects. This site is not a real banking site. Similarities, if any, to third party products and/or websites are purely coincidental. This site is provided "as is" without warranty of any kind, either express or implied. HCL does not assume any risk in relation to your use of this website. For more information, please go to
+      - link "https://www.hcl-software.com/appscan/" [ref=e109] [cursor=pointer]:
+        - /url: https://www.hcl-software.com/appscan/
+      - text: .
+      - text: Copyright © 2008, 2017, IBM Corporation, All rights reserved. Copyright © 2017, 2026, HCL Technologies, Ltd., All rights reserved.

@@ -1,0 +1,6 @@
+{
+  "fromAccount": "800000",
+  "toAccount": "800001",
+  "amount": "10000",
+  "note": "Automated transfer"
+}
