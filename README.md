@@ -4,30 +4,10 @@ This repository is a Playwright-based automation framework built with a Page Obj
 
 ## Structure
 
- `Basics/` — example starter tests (illustrative only). Structure:
-
-```
-Basics/
-├── 1_Record_Test.spec.ts
-├── 2_First_Test.spec.ts
-├── 3_RecordAtCursor_Test.spec.ts
-├── 4_Codegen_Test.spec.ts
-└── README.md
-```
-
-(Note: the tree above is an example structure shown in this README.)
-
 Project tree (illustrative):
 
 ```
 .
-├── package.json
-├── package-lock.json
-├── playwright.config.ts
-├── playwright-report/
-│   ├── index.html
-│   └── data/
-├── test-results/
 ├── pages/
 │   ├── base.page.ts
 │   ├── login.page.ts
